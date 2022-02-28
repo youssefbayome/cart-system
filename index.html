@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>CART</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h2>Cart</h2>
+        </div>
+        <div class="card-body">
+          <table class="table">
+            <tbody class="cart">
+              <tr>
+                <td style="width: 60px">
+                  <img
+                    style="height: 5rem"
+                    src="./imgs/guest-0f96b4f3-6356-4cfe-8a05-9f6a2865f830-wid-488-hei-488-fmt-pjpeg-5d1bd1d24a697.jpg"
+                    class="item-image"
+                    alt=""
+                  />
+                </td>
+                <td style="width: 60px" class="items-cta">
+                  <button
+                    type="button"
+                    class="btn btn-block btn-sm btn-outline-primary plus"
+                  >
+                    +
+                  </button>
+
+                  <input
+                    style="width: 40px"
+                    type="number"
+                    class="quantity"
+                    value="0"
+                  />
+
+                  <button
+                    type="button"
+                    class="btn btn-block btn-sm btn-outline-primary minus"
+                  >
+                    -
+                  </button>
+                </td>
+                <td class="text-right">$<span class="item-price">120</span></td>
+                <td>
+                  <button class="btn btn-outline-primary favorite">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                </td>
+                <td class="text-right">
+                  <button class="btn btn-danger delete">remove item</button>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 60px">
+                  <img
+                    style="height: 5rem"
+                    src="./imgs/guest-0f96b4f3-6356-4cfe-8a05-9f6a2865f830-wid-488-hei-488-fmt-pjpeg-5d1bd1d24a697.jpg"
+                    class="item-image"
+                    alt=""
+                  />
+                </td>
+                <td style="width: 60px" class="items-cta">
+                  <button
+                    type="button"
+                    class="btn btn-block btn-sm btn-outline-primary plus"
+                  >
+                    +
+                  </button>
+
+                  <input
+                    style="width: 40px"
+                    type="number"
+                    class="quantity"
+                    value="0"
+                    min="0"
+                  />
+
+                  <button
+                    type="button"
+                    class="btn btn-block btn-sm btn-outline-primary minus"
+                  >
+                    -
+                  </button>
+                </td>
+                <td class="text-right">$<span class="item-price">120</span></td>
+                <td>
+                  <button class="btn btn-outline-primary favorite">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                </td>
+                <td class="text-right">
+                  <button class="btn btn-danger delete">remove item</button>
+                </td>
+              </tr>
+              <tr>
+                <td style="width: 60px">
+                  <img
+                    style="height: 5rem"
+                    src="./imgs/guest-0f96b4f3-6356-4cfe-8a05-9f6a2865f830-wid-488-hei-488-fmt-pjpeg-5d1bd1d24a697.jpg"
+                    class="item-image"
+                    alt=""
+                  />
+                </td>
+                <td style="width: 60px" class="items-cta">
+                  <button
+                    type="button"
+                    class="btn btn-block btn-sm btn-outline-primary plus"
+                  >
+                    +
+                  </button>
+
+                  <input
+                    style="width: 40px"
+                    type="number"
+                    class="quantity"
+                    value="0"
+                    min="0"
+                  />
+
+                  <button
+                    type="button"
+                    class="btn btn-block btn-sm btn-outline-primary minus"
+                  >
+                    -
+                  </button>
+                </td>
+                <td class="text-right">$<span class="item-price">120</span></td>
+                <td>
+                  <button class="btn btn-outline-primary favorite">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+                </td>
+                <td class="text-right">
+                  <button class="btn btn-danger delete">remove item</button>
+                </td>
+              </tr>
+            </tbody>
+            <td class="text-right">
+              Total: $<strong class="total">0.00</strong>
+            </td>
+            <td></td>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/app.js"></script>
+  </body>
+</html>
